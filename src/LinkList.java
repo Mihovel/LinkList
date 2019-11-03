@@ -23,4 +23,10 @@ public class LinkList implements LinkListMethods {
     public void setNext(String next) {
         this.next = new LinkList(this, next, null);
     }
+
+    //дальше - для себя
+
+    boolean hasPrevious() {
+        return this.previous != null;
+    }
 }
